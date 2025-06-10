@@ -1,0 +1,53 @@
+Here are the basic Git commands to add a remote repository and push your local project to it:
+
+---
+
+### 🧱 Step-by-step Git commands
+
+#### 1. Initialize Git (if not already initialized)
+
+```bash
+git init
+```
+
+#### 2. Add all files to staging
+
+```bash
+git add .
+```
+
+#### 3. Commit your changes
+
+```bash
+git commit -m "Initial commit"
+```
+
+#### 4. Add the remote repository
+
+```bash
+git remote add origin https://github.com/pavan-sihore/node_js.git
+```
+
+#### 5. Push your code to the remote
+
+```bash
+git push -u origin master
+```
+
+> For newer Git versions, you might be using `main` instead of `master`:
+
+```bash
+git push -u origin main
+```
+
+---
+
+### 🔁 If Remote Already Exists and You Want to Change It
+
+```bash
+git remote set-url origin <new-URL>
+```
+
+---
+
+Let me know if you're using GitHub, GitLab, Bitbucket, or something else — I can give more specific steps if needed.
