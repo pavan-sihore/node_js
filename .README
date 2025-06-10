@@ -28,7 +28,27 @@ git commit -m "Initial commit"
 git remote add origin https://github.com/pavan-sihore/node_js.git
 ```
 
-#### 5. Push your code to the remote
+#### 5. Check the remote repository
+
+```bash
+git remote -v
+```
+
+#### 6.  Pull the remote branch
+Note: If there’s nothing committed locally yet, you can safely pull:
+
+```bash
+git pull origin main
+```
+
+#### 6.1 Using Rebase Instead of Merge (optional)
+Note: If you want to rebase your changes on top of the remote branch:
+
+```bash
+git pull --rebase origin main
+```
+
+#### 7. Push your code to the remote
 
 ```bash
 git push -u origin master
