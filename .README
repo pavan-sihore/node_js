@@ -67,7 +67,3 @@ git push -u origin main
 ```bash
 git remote set-url origin <new-URL>
 ```
-
----
-
-Let me know if you're using GitHub, GitLab, Bitbucket, or something else — I can give more specific steps if needed.
