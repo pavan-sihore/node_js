@@ -35,6 +35,7 @@ git pull --rebase origin main
 ```bash
 git add .
 git commit -m "Initial commit"
+git status
 ```
 
 ### 📤 Push to Remote
